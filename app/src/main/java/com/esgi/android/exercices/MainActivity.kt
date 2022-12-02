@@ -7,7 +7,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // TODO Changer cette ligne en fonction des layouts
-        setContentView(R.layout.activity_main)
+        // décommenter pour switch entre les 2 layout développer
+        //setContentView(R.layout.my_booking)
+        // setContentView(R.layout.parking_receipt)
     }
 }
